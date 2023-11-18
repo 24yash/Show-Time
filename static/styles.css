@@ -1,0 +1,58 @@
+@media only screen and (min-width: 768px) {
+    .bg{
+        /* background-color: #F266AB  !important;  */
+        /* background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFic3RyYWN0JTIwYXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60") !important; */
+        /* background-image: url("https://img.freepik.com/free-photo/paint-texture-background-abstract-art-light-color-wallpaper_53876-134372.jpg?w=1480&t=st=1685984824~exp=1685985424~hmac=b7c7ced2f3e6263f74a84eee2ca8208f9d37deaca6b83fcc874735bf4aa24c05") !important; */
+        background-color: #FF8787 !important;
+        background-image: url("https://images.unsplash.com/photo-1564951434112-64d74cc2a2d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFic3RyYWN0JTIwYXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: soft-light;
+        height: 100%;
+    }
+}
+
+.bg {
+    background-color: pink;
+}
+  
+
+/* fonts  */
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Ubuntu', sans-serif;
+ }
+
+:is(p, a){
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* center div */
+.center {
+    margin: auto;
+    width: 40%;
+}
+
+.white {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 5%;
+}
+
+/* Buttons */
+
+.btn {
+    background-color: #D14D72;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #D14D72;
+    border-color: #D14D72;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #D14D72;
+    border-color: #D14D72;
+}
+  
